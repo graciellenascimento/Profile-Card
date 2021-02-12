@@ -1,0 +1,117 @@
+:root {
+    width: 1440px;
+}
+
+.corpo{
+    min-width: 1024px !important; 
+    background-color: #19a1ad;
+    overflow: hidden; 
+}
+.bg-top{
+    position: absolute;
+    margin-block-start: -557px;
+    margin-inline-start: -402px;
+}
+.bg-bottom{
+    position: absolute;
+    margin-block-start: 557px;
+    margin-inline-start: 557px;
+    margin-top: 277px;
+}
+
+.caixa{
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-block-start: 134px;
+    margin-inline-start: 472px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.icon img{
+    position: absolute;
+    margin-block-start: 215px;
+    margin-inline-start: 594px;
+    border: 4px solid #fff;
+    border-radius: 50px;
+}
+
+.info{
+    display: inline-flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-block-start: 330px;
+    margin-inline-start: 581px;
+    position: absolute;
+}
+.nome{
+    margin-inline-end: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.idade{
+    font-size: 18px;
+    color: #8e8f93;
+}
+
+.loc{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: #8e8f93;
+    margin-block-start: 358px;
+    margin-inline-start: 624px;
+    position: absolute;
+}
+
+.divisoria{
+    border: 0;
+    width: 351px;
+    background: transparent;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 471px;
+    border-top: 1px solid #e7e7e7;
+}
+
+.sociais{
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: absolute;
+    margin-block-start: 426px;
+    margin-inline-start: 520px;
+}
+.numeros{
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+.oitenta{
+    padding-inline-end: 58px;
+}
+.oitotres{
+    padding-inline-end: 55px;
+}
+.categorias{
+    font-size: 14px;
+    color: #8e8f93;
+    display: flex;
+    margin-inline-start: -10px;
+}
+.follow{
+    padding-inline-end: 54px;
+}
+.likes{
+    padding-inline-end: 64px;
+}
+
+.atribuicoes{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 8px;
+}

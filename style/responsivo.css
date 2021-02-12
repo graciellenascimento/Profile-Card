@@ -1,0 +1,70 @@
+@media screen and (max-width: 376px){
+    .corpo {
+        overflow: hidden;
+        position: fixed;
+    }
+    .bg-top {
+        overflow-x: hidden;
+        margin-block-start: -557px;
+        margin-inline-start: -709px;
+    }
+    .bg-bottom{
+        margin-inline-start: 39px;
+    }
+    .caixa{
+        width: 350px;
+        height: 350px;
+        margin-block-start: 88px;
+        margin-inline-start: 5px;
+    }
+    
+    .icon img{
+        margin-block-start: 181px;
+        margin-inline-start: 129px;
+    }
+    
+    .info{
+        margin-block-start: 296px;
+        margin-inline-start: 118px;
+    }
+    .nome{
+        margin-inline-end: 10px;
+    }
+    
+    .loc{
+        margin-block-start: 321px;
+        margin-inline-start: 157px;
+    }
+    
+    .divisoria{
+        width: 350px;
+        margin-top: 376px;
+        margin-left: 5px;
+    }
+    
+    .sociais{
+        margin-block-start: 392px;
+        margin-inline-start: 59px;
+    }
+    .oitenta{
+        padding-inline-end: 58px;
+    }
+    .oitotres{
+        padding-inline-end: 55px;
+    }
+    .categorias{
+        font-size: 14px;
+        color: #8e8f93;
+        display: flex;
+        margin-inline-start: -10px;
+    }
+    .follow{
+        padding-inline-end: 54px;
+    }
+    .likes{
+        padding-inline-end: 64px;
+    }
+    .atribuicoes {
+        margin-inline-start: 9px;
+    }
+}
